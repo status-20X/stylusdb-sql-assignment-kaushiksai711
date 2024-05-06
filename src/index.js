@@ -1,4 +1,4 @@
-const parseQuery = require('./queryParser');
+const parseQuery = require('./queryParser1');
 const readCSV = require('./csvReader');
 
 async function executeSELECTQuery(query) {
