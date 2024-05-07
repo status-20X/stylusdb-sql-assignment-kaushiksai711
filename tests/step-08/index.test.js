@@ -43,8 +43,9 @@ test('Parse SQL Query with WHERE Clause', () => {
             "operator": "=",
             "value": "25",
         }],
+        joinTable: null,
         joinCondition: null,
-        joinTable: null
+        
     });
 });
 
